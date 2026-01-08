@@ -1,14 +1,17 @@
 *{margin: 0;padding: 0;
 box-sizing: border-box;}
 
-.btn{background-color:#FD6E0A;border: none;padding: 18px 35px;border-radius: 5px;font-size: 20px;font-weight: bold;color: white;}
+.btn{background-color:#FD6E0A;border: none;padding: 18px 35px;border-radius: 5px;font-size: 20px;font-weight: bold;color: white;cursor: pointer;}
 
 .font-open-sans {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
 }
-header{background-color:#FFF8F3;
-padding-top: 50px;}
+header{background-color:#FFF8F3;padding-top: 50px;
+    background: url(../images/developer.png), url(../images/header_bg.png),#FFF8F3;background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    
+}
 
 nav{width:71%;
 max-width: 1140px;
@@ -21,3 +24,12 @@ margin: 0 auto;display: flex;justify-content: space-between;align-items: center;
 nav .menu{display: flex;gap: 51px;list-style: none;align-items: center;}
 
 ul li a{text-decoration: none;color:#474747;text: size 20px; ;}
+#banner{margin: 47px 38px 0 230px;display: flex;align-items: center;justify-content: space-between;}
+#banner .banner-content{max-width: 585px;}
+
+#banner .banner-content h2{font-size: 45px;font-weight: 600;color:#474747;margin-bottom: 5px;}
+
+#banner .banner-content h1{font-size: 85px;font-weight:bold;margin-bottom: 20px;color: #181818;}
+#banner .banner-content p{font-size: 18px;color: #757575;margin-bottom: 30px;line-height: 30px;}
+#banner .banner-image img{max-width: 585px;
+vertical-align: middle;}
